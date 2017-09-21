@@ -1,0 +1,14 @@
+---
+layout: post
+title: "First Post"
+date: 2017-09-21 11:59:40
+image: 'http://placehold.it/740x200'
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+category: 'Mobile'
+tags:
+- Ionic 3
+- Mobile Foundation
+- Bluemix
+twitter_text: Twitter text goes here
+introduction: Introduction text goes here.
+---

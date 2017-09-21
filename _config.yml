@@ -1,0 +1,43 @@
+# Site Settings
+title: Ken@IBM | IBM Mobile | API | Cloud
+email: ken.nelson@us.ibm.com
+description: This blog discusses mobile, api, and cloud topics specific to IBM solutions such as IBM Mobile Foundation, IBM API Connect, IBM App Connect, IBM Bluemix, Blockchain, and Cognitive services.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.kenatibm.com" # the base hostname & protocol for your site
+google_analytics: "UA-XXXXXXXX-X"
+
+# User Settings
+username: KenAtIBM
+user_description: IBM Industrial Market Integration SWAT | API | Mobile | Cloud
+disqus_username: kenatibm
+
+# Social Media
+# Remove the item if you don't need it
+github_username: KenAtIBM
+#facebook_username: facebook_username
+twitter_username: KenAtIBM
+#instagram_username: instagram_username
+linkedin_username: kendnelson
+#medium_username: medium_username
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Plugins
+gems:
+  - jemoji
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Contact
+    url: /contact/
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
