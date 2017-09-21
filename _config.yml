@@ -7,7 +7,7 @@ url: "https://www.kenatibm.com" # the base hostname & protocol for your site
 google_analytics: "UA-XXXXXXXX-X"
 
 # User Settings
-username: KenAtIBM
+username: Ken@IBM
 user_description: IBM Industrial Market Integration SWAT | API | Mobile | Cloud
 disqus_username: kenatibm
 
