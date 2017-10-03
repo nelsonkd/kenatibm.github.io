@@ -28,7 +28,7 @@ While observables were important, I also wanted to provide an example with a few
 
 Each part of the tutorial will be linked to as they are completed.
 
-* Setup <font color="gray">(coming soon)</font>
+* [Setup](http://kenatibm.com/article-ionic-mobile-foundation-setup/)
 * The Article App <font color="gray">(coming soon)</font>
 * The **R** in c**R**ud <font color="gray">(coming soon)</font>
 * The **CUD** in **C**r**UD** <font color="gray">(coming soon)</font>

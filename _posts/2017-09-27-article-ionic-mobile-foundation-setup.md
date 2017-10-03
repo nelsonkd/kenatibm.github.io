@@ -25,16 +25,16 @@ Subsequent tutorials will cover the process of creating the application, see the
 To building a mobile application using Ionic 3 and Mobile Foundation you will need the following:
 
 * Java Developer Kit (JDK)
-* [nodejs](#nodejs)
-* [git](#git)
-* [Ionic Framework](#ionic)
-* [Cordova](#cordova)
-* [Typescript](#typescript)
-* [IBM Mobile Foundation Command Line Interface (CLI)](#mfpcli)
-* [json-server](#json-server)
-* [Maven](#maven)
-* [Mobile Foundation Developer Kit](#mfpdevkit)
-* [Your favorite editor](#editor)
+* nodejs
+* git
+* Ionic Framework
+* Cordova
+* Typescript
+* IBM Mobile Foundation Command Line Interface (CLI)
+* json-server
+* Maven
+* Mobile Foundation Developer Kit
+* Your favorite editor
 
 	> For this tutorial series I will be using Visual Studio Code because it is free to use an available for Windows, Unix, and Mac.
 
@@ -59,7 +59,6 @@ To building a mobile application using Ionic 3 and Mobile Foundation you will ne
 |  json-server  |  0.12.0  |
 |  Maven  |  3.5.0  |
 
-<div id="java">
 ## Installing Java JDK
 
 You will need to have either version 7 or version 8 of the Java Developer Kit (JDK) installed for the Mobile Foundation Developer Kit to run and for the ability to run Maven commands. Below are links to instructions for installing Java Developer Kit version 8.
@@ -74,7 +73,6 @@ Check your installation to ensure that Java has been installed by opening a term
 java -version
 ```
 
-<div id="nodejs">
 ## Installing [nodejs](https://nodejs.org)
 
 If you already have node or are unsure if you have node, open a terminal or command prompt and type `node --version`.  If [nodejs](https://nodejs.org) is installed, then you should see the version echoed back.
@@ -93,7 +91,6 @@ Installation of [nodejs](https://nodejs.org) also includes the installation of [
 
 You may at some point in your development career require the ability to have multiple versions of nodejs installed. This can be handle by installing [Node Version Manager](https://github.com/creationix/nvm) and using it to install node for you. Installing Node Version Manager is beyond the scope of this article, however I wanted to mention it as an option.
 
-<div id="git">
 ## Installing [Git](https://git-scm.com/)
 
 [Git](https://git-scm.com/) is one of the most widely used version control systems used today. The source that I provide throughout this tutorial will be available via Git. So if you run into trouble you can always pull from git to catch up.
@@ -130,7 +127,6 @@ This process is a little more complex than simply downloading the project from C
 
 > There is a blog [Upgrade to Ionic 3 Lazy Loading (With Script!)](https://ionicacademy.com/ionic-3-lazy-loading/) that you could use to update a project downloaded from Creator to generate the files necessary to use Lazy Page Loading. I have added it here simply as a reference.
 
-<div id="cordova">
 ## Installing [Cordova](https://cordova.apache.org/)
 
 As with the installation of [Ionic](https://ionicframework.com/) , you will use [npm](https://www.npmjs.com/) to install [Cordova](https://cordova.apache.org/). [Cordova](https://cordova.apache.org/) is the component that makes your app an app. It is a bridge between the device and the JavaScript/HTML you write your application with. Visit the Cordova site for an [Architectural Overview of Cordova](https://cordova.apache.org/docs/en/latest/guide/overview/)
@@ -149,7 +145,6 @@ cordova -version
 
 > **Note:** You may need adminstrator permissions. Under Windows you will need to open the command prompt As Administrator. For a Mac or Unix, in the terminal session you would prefix the command with `sudo`. For example `sudo npm install -g cordova`. In addition you could have installed [Ionic](https://ionicframework.com/)  and [Cordova](https://cordova.apache.org/) at the same time by typing `sudo npm install -g ionic cordova`
 
-<div id="typescript">
 ## Installing [Typescript](https://www.typescriptlang.org/)
 
 [Typescript](https://www.typescriptlang.org/) adds strong typing to Javascript. This feature and [ECMAScript 6 (or ECMA-262/ECMAScript 2015 for you purists out there)](https://www.ecma-international.org/ecma-262/6.0/), in my opinion, are what makes Javascript a viable and effective programming language. Many editors now support [Typescript](https://www.typescriptlang.org/) including the [editors](#editor) mentioned below.
@@ -169,7 +164,6 @@ tsc --version
 
 > **Note:** You may need adminstrator permissions. Under Windows you will need to open the command prompt As Administrator. For a Mac or Unix, in the terminal session you would prefix the command with `sudo`. For example `sudo npm install -g typescript`.
 
-<div id="mfpcli">
 ## Installing the [IBM Mobile Foundation Command Line Interface (CLI)](https://mobilefirstplatform.ibmcloud.com/downloads/)
 
 As with the installation of [Ionic](https://ionicframework.com/) and [Cordova](https://cordova.apache.org/), you will use [npm](https://www.npmjs.com/) to install the [IBM Mobile Foundation Command Line Interface (CLI)](https://mobilefirstplatform.ibmcloud.com/downloads/). 
@@ -190,7 +184,6 @@ mfpdev --version
 
 > **Note:** You may need adminstrator permissions. Under Windows you will need to open the command prompt As Administrator. For a Mac or Unix, in the terminal session you would prefix the command with `sudo`. For example `sudo npm install -g mfpdev-cli`.
 
-<div id="json-server">
 ## Installing [json-server](https://github.com/typicode/json-server)
 json-server is a tool that allows you to quickly mock up data as JSON documents and provides full REST support. What I like about it is that I can mock up my application data structures for developing my user interface without the need for creating a full-blown database. This is great for prototyping your application. I travel a lot and the server runs locally so I can always work on my app.
 
@@ -205,7 +198,6 @@ npm install -g json-server
 
 > **Note:** json-server is also available via Docker Hub
 
-<div id="editor">
 ## Installing your Favorite Editor
 
 Hopefully you already have a favorite editor installed. But if you do not or would like to try something new, you can visit one or more of the following sites and follow the download/installation instructions.
@@ -261,7 +253,6 @@ To verify the version of the server you are running, **Click** the Settings icon
 
 > **NOTE:** More of the Mobile Foundation CLI commands will be covered in future sections of the tutorial. However if you are interested in learning more about the commands now, you can type `mfpdev help` from a terminal or command prompt.
 
-<div id="maven" />
 ## Installing [Maven](https://maven.apache.org/)
 [Maven](https://maven.apache.org/) is a build process management open source project managed by the Apache Foundation. Mobile Foundation uses [Maven](https://maven.apache.org/) as the basis for building a deploying adapters. The [Maven](https://maven.apache.org/) respository contains a number of Mobile Foundation projects that can be found [here](https://mvnrepository.com/artifact/com.ibm.mfp). The advantage of having adapters as [Maven](https://maven.apache.org/) projects is that you can extend adapters to meet you specific needs such as creating an adapter for a third party product that is not supported.
 
@@ -274,7 +265,6 @@ Installing [Maven](https://maven.apache.org/) is relatively simple. Visit the [M
 Once the download is complete, uncompress the archive and copy/move to an accessible location on your hard disk. Add the location of the [Maven](https://maven.apache.org/) bin directory to your path and restart as necessary.  Full instructions for installing Maven can be found [here](https://maven.apache.org/install.html).
 
 
-<div id="optional" />
 ## Optional installations
 
 ### [Xcode](https://developer.apple.com/xcode/downloads/) for Mac Developers
