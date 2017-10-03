@@ -59,6 +59,7 @@ To building a mobile application using Ionic 3 and Mobile Foundation you will ne
 |  json-server  |  0.12.0  |
 |  Maven  |  3.5.0  |
 
+<div id="java">
 ## Installing Java JDK
 
 You will need to have either version 7 or version 8 of the Java Developer Kit (JDK) installed for the Mobile Foundation Developer Kit to run and for the ability to run Maven commands. Below are links to instructions for installing Java Developer Kit version 8.
