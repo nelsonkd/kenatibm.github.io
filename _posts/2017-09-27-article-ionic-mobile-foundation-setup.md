@@ -99,7 +99,6 @@ Installing [Git](https://git-scm.com/) is as straightforward as installing nodej
 
 ![Git Download](http://res.cloudinary.com/kenatibm/image/upload/bo_2px_solid_rgb:cccccc,q_auto:eco/v1506866557/blog%202017/20170927/git_download.png)
 
-<div id="ionic">
 ## Installing the [Ionic Framework Command Line Utility](https://ionicframework.com/)
 The [Ionic](https://ionicframework.com/) Command Line Utility is used to create, build and test mobile applications. To install the [Ionic](https://ionicframework.com/) Command Line Utility you will use the freshly installed Node Package Manager ([npm](https://www.npmjs.com/)) that came with the nodejs installation.
 
@@ -212,7 +211,6 @@ For the remainder of this tutorial series I will use [Visual Studio Code](https:
 
 ![Visual Studio Code Home Page](http://res.cloudinary.com/kenatibm/image/upload/bo_2px_solid_rgb:cccccc,q_auto:eco/v1506865990/blog%202017/20170927/visual_studio_code.png)
 
-<div id="mfpdevkit">
 ## Installing the Mobile Foundation Developer Kit
 
 The Mobile Foundation Developer Kit includes a ready to run server environment based on the [IBM Websphere Liberty Profile](https://developer.ibm.com/wasdev/websphere-liberty/). The Mobile Foundation application is deployed to the Liberty Profile. Mobile Foundation is an application itself and runs on various flavors of IBM Websphere as well as Tomcat.
