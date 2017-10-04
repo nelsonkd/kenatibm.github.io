@@ -15,4 +15,4 @@ introduction: Multi-part CRUD tutorial on Ionic 3 & IBM Mobile Foundation.
 
 In this part of the tutorial I will review the functionality of the app.
 
-{% youtube K4CFGNWpQJA %}
+<iframe width="560" height="420" src="http://www.youtube.com/embed/K4CFGNWpQJA?color=white&theme=light"></iframe>
