@@ -33,6 +33,8 @@ Each part of the tutorial will be linked to as they are completed.
 * The **R** in c**R**ud <font color="gray">(coming soon)</font>
 * The **CUD** in **C**r**UD** <font color="gray">(coming soon)</font>
 * Create Cloudant Database on Bluemix <font color="gray">(coming soon)</font>
-* Create Mobile Foundation on Bluemix <font color="gray">(coming soon)</font>
 * Creating an Adapter <font color="gray">(coming soon)</font>
 * Updating the App for Mobile Foundation <font color="gray">(coming soon)</font>
+* Migrate App to Mobile Foundation on Bluemix <font color="gray">(coming soon)</font>
+* Adding Security and a Login Page <font color="gray">(coming soon)</font>
+* Adding Custom User Analytics <font color="gray">(coming soon)</font>
