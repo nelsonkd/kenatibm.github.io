@@ -30,7 +30,7 @@ Each part of the tutorial will be linked to as they are completed.
 
 * [Setup](http://kenatibm.com/article-ionic-mobile-foundation-setup/)
 * [The Article App](http://kenatibm.com/article-ionic-mobile-foundation-app/)
-* The **R** in c**R**ud <font color="gray">(coming soon)</font>
+* [The **R** in c**R**ud](http://kenatibm.com/article-ionic-mobile-foundation-r-in-crud/)</font>
 * The **CUD** in **C**r**UD** <font color="gray">(coming soon)</font>
 * Create Cloudant Database on Bluemix <font color="gray">(coming soon)</font>
 * Creating an Adapter <font color="gray">(coming soon)</font>

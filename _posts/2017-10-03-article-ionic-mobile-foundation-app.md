@@ -16,6 +16,7 @@ introduction: Multi-part CRUD tutorial on Ionic 3 & IBM Mobile Foundation.
 
 * **Tutorial Overview**: [**Tutorial Home**](http://kenatibm.com/article-ionic-mobile-foundation-intro/)
 * **Previous Article:** [Setup](http://kenatibm.com/article-ionic-mobile-foundation-setup/)
+* **Next Article:** [The R in cRud](http://kenatibm.com/article-ionic-mobile-foundation-r-in-crud/)
 
 ---
 
